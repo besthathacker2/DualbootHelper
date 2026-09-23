@@ -2,10 +2,10 @@ name: Android CI q
 
 on:
   push:
-    branches: [ "nhglong-fixes2" ]
+    branches: [ "main" ]
 
   pull_request:
-    branches: [ "nhglong-fixes2" ]
+    branches: [ "main" ]
 
 jobs:
   build:
